@@ -1,0 +1,22 @@
+{
+  "name": "socketioserver",
+  "version": "1.0.0",
+  "description": "Test Socket IO Server For Chat APP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinushadck/SocketIOServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinushadck/SocketIOServer/issues"
+  },
+  "homepage": "https://github.com/dinushadck/SocketIOServer#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
