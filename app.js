@@ -9,6 +9,8 @@ io.on('connection', client => {
     if (data.event === "register") {
       if (data.myId) {
         clients[data.myId] = client;
+      } else {
+        console.warn('Invalid Id');
       }
 
     }
